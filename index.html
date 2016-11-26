@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tableau de couleur</title>
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+
+    <table id="colorTable"></table>
+    <div id="board">
+        <label for="textInput">Saisissez votre text ici</label>
+        <input type="text" name="textInput" placeholder="ICI!" id="textInput">
+        <input type="button" name="textButton" id="textButton" value="Validez" onclick="textSplitOnTable()">
+        <br>
+        <label for="changeColor">Cliquez sur le bouton ou appuyez sur la touche 'A' pour changer les couleurs</label>
+        <input type="button" name="changeColor" id="changeColor" value="ICI!" onclick="randomColorCell()">
+        <br>
+        <label for="clearButton">Cliquez sur le bouton ou appuyez sur la touche 'C' pour effacer le texte</label>
+        <input type="button" name="clearButton" id="clearButton" value="ICI!" onclick="clearText()">
+        <br>
+        <label for="beautifullColorButton">Cliquez sur le bouton ou appuyez sur la touche 'B' pour mettre de bien meilleures couleurs</label>
+        <input type="button" name="beautifullColorButton" id="beautifullColorButton" value="ICI!" onclick="randomBeautyfullColorCell()">
+    </div>
+    <script src="JS/javascript.js"></script>
+</body>
+
+</html>
